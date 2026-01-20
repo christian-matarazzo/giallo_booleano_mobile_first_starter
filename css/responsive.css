@@ -1,2 +1,58 @@
 /* Soluzione qui */
 
+/* tablet solution */
+@media screen and (min-width: 768px) {
+
+    #topbar {
+
+    display: flex;
+	align-items: left;
+	justify-content: left;
+    }
+
+    main {
+        padding: 40px;
+    }
+
+    .recipe-title {
+
+        font-size: 24px;
+    } 
+
+    .recipe-name::after {
+        content: "(Dolce Tradizionale)";
+    }
+    
+
+
+    .quick-notes>ul {
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-wrap: 1;
+        row-gap: 25px;
+        gap: 20px;
+        max-width: 75%;
+    }
+
+
+    .btn {
+
+        font-size: 25px;
+        padding:  1rem 2rem;
+        border-radius: 1rem;
+        width: 100%;
+    }
+
+    .ads {
+
+        display: block
+    }
+
+    .presentation img {
+        float: left;
+        margin-right: 20px;
+    }
+}
+
+/* tablet solution */
