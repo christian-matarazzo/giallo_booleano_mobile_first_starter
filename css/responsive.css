@@ -5,7 +5,7 @@
 @media screen and (min-width: 768px) {
 
     #topbar {
-
+    
     display: flex;
 	align-items: left;
 	justify-content: left;
@@ -13,6 +13,7 @@
 
     main {
         padding: 40px;
+        min-height: 100%;
     }
 
     .recipe-title {
