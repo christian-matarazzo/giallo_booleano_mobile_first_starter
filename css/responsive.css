@@ -5,10 +5,10 @@
 @media screen and (min-width: 768px) {
 
     #topbar {
-    
-    display: flex;
-	align-items: left;
-	justify-content: left;
+
+        display: flex;
+        align-items: left;
+        justify-content: left;
     }
 
     main {
@@ -19,12 +19,12 @@
     .recipe-title {
 
         font-size: 24px;
-    } 
+    }
 
     .recipe-name::after {
         content: "(Dolce Tradizionale)";
     }
-    
+
 
 
     .quick-notes>ul {
@@ -61,88 +61,78 @@
 
 /* desktop solution */
 
-@media  screen and (min-width:992px) 
-
-{
-        .recipe-title {
+@media screen and (min-width:992px) {
+    .recipe-title {
 
         font-size: 30px;
-    } 
+    }
 
 
-        .quick-notes>ul {
+    .quick-notes>ul {
 
         display: flex;
         flex-direction: column;
-        
-        
+
+
     }
 
-.recipe-card {
-    display:flex;
+    .recipe-card {
+        display: flex;
 
-}
+    }
 
-.recipe-video {
+    .recipe-video {
 
-    flex-grow: 1;
-    
-}
+        flex-grow: 1;
 
-.recipe-info {
+    }
 
-   
+    .social-networks {
 
-}
+        max-width: 200px;
+        display: flex;
+        text-align: center;
+    }
+
+    .fa-facebook:after {
+        content: "Facebook";
+        color: black;
+        margin-left: 2px;
 
 
+    }
 
+    .fa-twitter:after {
+        content: "Twitter";
+        color: black;
+        margin-left: 5px;
+    }
 
+    .fa-instagram:after {
+        content: "Instagram";
+        color: black;
+        margin-left: 2px;
+    }
 
-.social-networks {
+    .fa-pinterest:after {
+        content: "Pinterest";
+        color: black;
+        margin-left: 5px;
+    }
 
-    max-width: 200px;
-    display: flex;
-text-align: center;
-}
+    .fa-youtube:after {
+        content: "Youtube";
+        color: black;
+        margin-left: 5px;
+    }
 
-.fa-facebook:after {
-    content: "Facebook";
-    color: black;
-    margin-left: 2px;
+    footer {
 
-    
-}
+        display: flex;
 
-.fa-twitter:after {
-    content: "Twitter";
-    color:black;
-    margin-left: 5px;
-}
+        justify-content: space-between;
 
-.fa-instagram:after {
-    content: "Instagram";
-    color:black;
-    margin-left: 2px;
-}
-.fa-pinterest:after {
-    content: "Pinterest";
-    color:black;
-    margin-left: 5px;
-}
-.fa-youtube:after {
-    content: "Youtube";
-    color:black;
-    margin-left: 5px;
-}
-
-footer {
-
-    display: flex;
-
-    justify-content: space-between;
-    
-}
+    }
 
 
 }
