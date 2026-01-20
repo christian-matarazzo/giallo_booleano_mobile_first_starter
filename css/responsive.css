@@ -80,7 +80,7 @@
 
 .recipe-card {
     display:flex;
-    border: 3px red solid;
+
 }
 
 .recipe-video {
@@ -90,7 +90,7 @@
 }
 
 .recipe-info {
-    border: 3px red solid;
+
    
 
 }
